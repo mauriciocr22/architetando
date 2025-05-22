@@ -15,7 +15,7 @@ export default function Header() {
             <nav className="w-full h-10 bg-[#080520] flex items-center justify-center">
                 <ul className="flex text-white text-lg justify-center gap-40 text-center">
                     <li><Link to="/">Página Inicial</Link></li>
-                    <li><Link to="">Cursos</Link></li>
+                    <li><Link to="/cursos">Cursos</Link></li>
                     <li><Link to="">Podcast</Link></li>
                     <li><Link to="">Nossos Projetos</Link></li>
                 </ul>
