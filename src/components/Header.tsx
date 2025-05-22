@@ -1,5 +1,6 @@
 import menuImg from "../assets/menu.png";
 import logoImg from "../assets/logo-blue.png";
+import { Link } from "react-router-dom";
 
 export default function Header() {
     return (
@@ -13,10 +14,10 @@ export default function Header() {
             </div>
             <nav className="w-full h-10 bg-[#080520] flex items-center justify-center">
                 <ul className="flex text-white text-lg justify-center gap-40 text-center">
-                    <li><a href="">Página Inicial</a></li>
-                    <li><a href="">Cursos</a></li>
-                    <li><a href="">Podcast</a></li>
-                    <li><a href="">Nossos Projetos</a></li>
+                    <li><Link to="/">Página Inicial</Link></li>
+                    <li><Link to="">Cursos</Link></li>
+                    <li><Link to="">Podcast</Link></li>
+                    <li><Link to="">Nossos Projetos</Link></li>
                 </ul>
             </nav>
         </header>
