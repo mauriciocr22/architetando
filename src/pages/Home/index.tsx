@@ -1,9 +1,9 @@
-import quemSomosImg from "../../assets/quem-somos.png"
+import quemSomosImg from "../../assets/home/quem-somos.png"
 
 export default function Home() {
     return (
         <section className="p-0 m-0 flex flex-col gap-20 mb-24 w-full">
-            <div className="bg-[url(/src/assets/home.png)] bg-center bg-cover bg-no-repeat h-[650px] 2xl:h-[750px] flex items-center p-52">
+            <div className="bg-[url(/src/assets/home/home.png)] bg-center bg-cover bg-no-repeat h-[650px] 2xl:h-[750px] flex items-center p-52">
                 <div className=" text-white flex gap-12 flex-col">
                     <div className="flex flex-col gap-2">
                         <h1 className="text-6xl font-bold">Venha para o Architetando</h1>
