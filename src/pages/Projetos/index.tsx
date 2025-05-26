@@ -15,7 +15,7 @@ export default function Projetos() {
     const imagensDesterro = [plantaDesterroImg];
 
     return(
-        <section className="flex w-[1360px] items-center justify-center flex-col p-8 gap-8 my-0 mx-auto">
+        <section className="flex 2xl:w-[1366px] items-center justify-center flex-col p-8 gap-8 my-0 mx-auto">
             <h1 className="text-4xl font-bold">Nossos Projetos</h1>
             <Projeto nomeProjeto="Igreja do Rosário" imagensProjeto={imagensRosario}/>
             <Projeto nomeProjeto="Igreja Matriz de Itanhaem" imagensProjeto={imagensItanhaem}/>

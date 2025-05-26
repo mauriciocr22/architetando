@@ -16,7 +16,7 @@ export default function Header() {
                 <ul className="flex text-white text-lg justify-center gap-40 text-center">
                     <li><Link to="/">Página Inicial</Link></li>
                     <li><Link to="/cursos">Cursos</Link></li>
-                    <li><Link to="">Podcast</Link></li>
+                    <li><Link to="">Corpo Docente</Link></li>
                     <li><Link to="/projetos">Nossos Projetos</Link></li>
                 </ul>
             </nav>
