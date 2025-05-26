@@ -12,3 +12,7 @@ html, body, #root {
 body {
     @apply overflow-y-scroll;
 }
+
+.navBar ul li {
+    @apply relative after:content-[''] after:absolute after:h-[1.5px] after:left-0 after:bottom-0 after:w-0 after:bg-white after:transition-all hover:after:w-full;
+}

@@ -12,9 +12,9 @@ export default function Header() {
                 <img src={logoImg} className="w-44" alt="Logo Architetando" />
                 <span className="w-[87px]"></span>
             </div>
-            <nav className="w-full h-10 bg-[#080520] flex items-center justify-center">
+            <nav className="w-full navBar h-10 bg-[#080520] flex items-center justify-center">
                 <ul className="flex text-white text-lg justify-center gap-40 text-center">
-                    <li><Link to="/">Página Inicial</Link></li>
+                    <li ><Link to="/">Página Inicial</Link></li>
                     <li><Link to="/cursos">Cursos</Link></li>
                     <li><Link to="/corpo-docente">Corpo Docente</Link></li>
                     <li><Link to="/projetos">Nossos Projetos</Link></li>
