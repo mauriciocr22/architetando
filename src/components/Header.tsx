@@ -17,7 +17,7 @@ export default function Header() {
                     <li><Link to="/">Página Inicial</Link></li>
                     <li><Link to="/cursos">Cursos</Link></li>
                     <li><Link to="">Podcast</Link></li>
-                    <li><Link to="">Nossos Projetos</Link></li>
+                    <li><Link to="/projetos">Nossos Projetos</Link></li>
                 </ul>
             </nav>
         </header>
