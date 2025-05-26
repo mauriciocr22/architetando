@@ -1,11 +1,11 @@
 import Projeto from "../../components/Projeto";
 
-import plantaRosarioImg from "../../assets/planta-rosario.png";
-import rosarioImg from "../../assets/igreja-rosario.png";
-import plantaItanhaemImg from "../../assets/planta-itanhaem.png";
-import plantaMonteSerratImg from "../../assets/planta-monte-serrat.png";
-import monteSerratImg from "../../assets/monte-serrat.png"
-import plantaDesterroImg from "../../assets/planta-desterro.png"
+import plantaRosarioImg from "../../assets/projetos/planta-rosario.png";
+import rosarioImg from "../../assets/projetos/igreja-rosario.png";
+import plantaItanhaemImg from "../../assets/projetos/planta-itanhaem.png";
+import plantaMonteSerratImg from "../../assets/projetos/planta-monte-serrat.png";
+import monteSerratImg from "../../assets/projetos/monte-serrat.png"
+import plantaDesterroImg from "../../assets/projetos/planta-desterro.png"
 
 export default function Projetos() {
 

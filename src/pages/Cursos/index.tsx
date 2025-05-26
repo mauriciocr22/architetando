@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
-import cursoImg from "../../assets/curso-image.png"
-import chevronRight from "../../assets/chevron-right.png"
+import cursoImg from "../../assets/icones/curso-image.png"
+import chevronRight from "../../assets/icones/chevron-right.png"
 
 export default function Cursos() {
     return (

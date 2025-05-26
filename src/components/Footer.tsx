@@ -1,5 +1,5 @@
-import facebookLogo from "../assets/Facebook.svg";
-import instagramLogo from "../assets/Instagram.svg";
+import facebookLogo from "../assets/icones/facebook.svg";
+import instagramLogo from "../assets/icones/instagram.svg";
 
 export default function Footer() {
     return (

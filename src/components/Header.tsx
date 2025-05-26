@@ -1,4 +1,4 @@
-import menuImg from "../assets/menu.png";
+import menuImg from "../assets/icones/menu.png";
 import logoImg from "../assets/logo-blue.png";
 import { Link } from "react-router-dom";
 
@@ -16,7 +16,7 @@ export default function Header() {
                 <ul className="flex text-white text-lg justify-center gap-40 text-center">
                     <li><Link to="/">Página Inicial</Link></li>
                     <li><Link to="/cursos">Cursos</Link></li>
-                    <li><Link to="">Corpo Docente</Link></li>
+                    <li><Link to="/corpo-docente">Corpo Docente</Link></li>
                     <li><Link to="/projetos">Nossos Projetos</Link></li>
                 </ul>
             </nav>
