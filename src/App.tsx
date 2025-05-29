@@ -6,6 +6,7 @@ import Cursos from "./pages/Cursos"
 import Projetos from "./pages/Projetos"
 import CorpoDocente from "./pages/CorpoDocente"
 import CurriculoDocente from "./pages/CurriculoDocente"
+import CursoPatrimonio from "./pages/CursoPatrimonio"
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/projetos" element={<Projetos />}/>
           <Route path="/corpo-docente" element={<CorpoDocente />}/>
           <Route path="/corpo-docente/:slug" element={<CurriculoDocente />}/>
+          <Route path="/curso-de-capacitação-em-patrimônio" element={<CursoPatrimonio />}/>
         </Routes>
       </main>
       <Footer />
