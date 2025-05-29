@@ -12,7 +12,7 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
-      <main className="min-h-[calc(100vh-411px)]">
+      <main className="lg:min-h-[calc(100vh-411px)] pt-[80px]">
         <Routes>
           <Route path="/" element={<Home />}/>
           <Route path="/cursos" element={<Cursos />}/>
