@@ -9,7 +9,9 @@ export default function Header() {
                 <div className="flex items-center hover:cursor-pointer">
                     <img src={menuImg} className="w-9" alt="icone de menu" />
                 </div>
-                <img src={logoImg} className="w-44" alt="Logo Architetando" />
+                <Link to="/">
+                    <img src={logoImg} className="w-44" alt="Logo Architetando" />
+                </Link>
                 <span className="w-[87px]"></span>
             </div>
             <nav className="w-full navBar h-10 bg-[#080520] flex items-center justify-center">
