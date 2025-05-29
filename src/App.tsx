@@ -5,6 +5,7 @@ import Home from "./pages/Home"
 import Cursos from "./pages/Cursos"
 import Projetos from "./pages/Projetos"
 import CorpoDocente from "./pages/CorpoDocente"
+import CurriculoDocente from "./pages/CurriculoDocente"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/cursos" element={<Cursos />}/>
           <Route path="/projetos" element={<Projetos />}/>
           <Route path="/corpo-docente" element={<CorpoDocente />}/>
+          <Route path="/corpo-docente/:slug" element={<CurriculoDocente />}/>
         </Routes>
       </main>
       <Footer />
