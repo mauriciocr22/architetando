@@ -2,11 +2,12 @@ import cursoImg from "../../assets/curso.png";
 
 export default function CursoPatrimonio() {
     return (
-        <section className="flex items-center justify-center flex-col gap-20 p-8 py-12 w-[80%] my-0 mx-auto">
+        <section className="flex items-center justify-center flex-col gap-20 lg:p-8 py-12 w-[80%] my-0 mx-auto">
             <div className="flex justify-between w-full gap-10 2xl:gap-0 items-center">
-                <img className="w-[45%] h-[45%]" src={cursoImg} alt="Imagem do Curso de capacitação de Patrimônio Material" />
-                <div className="2xl:w-[45%] w-[55%] flex flex-col items-center 2xl:p-2 2xl:gap-12 gap-4">
+                <img className="w-[45%] h-[45%] lg:inline hidden" src={cursoImg} alt="Imagem do Curso de capacitação de Patrimônio Material" />
+                <div className="2xl:w-[45%] lg:w-[55%] flex flex-col items-center 2xl:p-2 2xl:gap-12 gap-4">
                     <h1 className="2xl:text-4xl text-3xl font-bold text-center">Curso de Capacitação em Patrimônio Material das Cidades</h1>
+                    <img className="w-[100%] mb-4 h-[100%] lg:hidden" src={cursoImg} alt="Imagem do Curso de capacitação de Patrimônio Material" />
                     <p className="2xl:text-xl text-justify">
                         O Curso de Capacitação em Patrimônio Material das Cidades, é focado no estudo de Técnicas Retrospectivas na Arquitetura Contemporânea,
                         usando uma abordagem sobre o estudo e a conceituação de patrimônio edificado, sua identificação, valorização e preservação. Propõe ainda a discussão sobre a necessidade de preservação, 
@@ -131,7 +132,7 @@ export default function CursoPatrimonio() {
                 <p className="font-bold">
                     Bibliografia complementar:
                 </p>
-                <p>
+                <p className="break-words">
                     Papers diversos autores (disponível em): <a className="underline" target="_blank" href="https://drive.google.com/drive/folders/1SbP2hhA6owszYTyoZVa1V4E0WHQvqbSb?usp=sharing">https://drive.google.com/drive/folders/1SbP2hhA6owszYTyoZVa1V4E0WHQvqbSb?usp=sharing</a> <br/>
                     Arquitextos(disponível em): <br/>
                     <a className="underline" target="_blank" href="https://drive.google.com/drive/folders/1t-sx21Rn2WLsI_JGIFLyWhFg-1wZ7kr4?usp=sharing">https://drive.google.com/drive/folders/1t-sx21Rn2WLsI_JGIFLyWhFg-1wZ7kr4?usp=sharing</a> <br/>
