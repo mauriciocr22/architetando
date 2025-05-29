@@ -10,7 +10,7 @@ export default function Header() {
 
     return (
         <>  
-            <header className="w-full z-20 fixed bg-white lg:static border-b border-gray-200">
+            <header className="w-full z-20 fixed bg-white lg:static border-b border-gray-200 lg:border-0">
                 <div className="w-full lg:h-32 h-20 lg:p-9 lg:px-16 px-6 flex items-center justify-between">
                     <span className="w-[80px] hidden lg:inline"></span>
                     <Link to="/">
@@ -47,16 +47,17 @@ export default function Header() {
                         <img src={closeImg} onClick={() => setIsOpen(!isOpen)} className="w-9" alt="" />
                     </div>
                     <ul className="flex flex-col w-full text-xl gap-3">
-                        <Link to="/">Quem Somos</Link>
-                        <Link to="/cursos">Cursos</Link>
-                        <Link to="/corpo-docente">Corpo Docente </Link>
+                        <Link onClick={() => setIsOpen(!isOpen)} to="/">Quem Somos</Link>
+                        <Link onClick={() => setIsOpen(!isOpen)} to="/cursos">Cursos</Link>
+                        <Link onClick={() => setIsOpen(!isOpen)} to="/projetos">Projetos</Link>
+                        <Link onClick={() => setIsOpen(!isOpen)} to="/corpo-docente">Corpo Docente </Link>
                         <ul className="flex flex-col pl-4 gap-3">
-                            <Link to="/corpo-docente/ana-paula-dos-santos-nascimento">Ana Paula dos Santos</Link>
-                            <Link to="/corpo-docente/celma-do-carmo-de-souza-pinto">Celma do Carmo Pinto</Link>
-                            <Link to="/corpo-docente/maria-jose-spiteri-tavolaro-passos">Maria José Spiteri</Link>
-                            <Link to="/corpo-docente/mozart-alberto-bonazzi-da-costa">Mozart Alberto Bonazzi</Link>
-                            <Link to="/corpo-docente/ricardo-andalaft">Ricardo Andalaft</Link>
-                            <Link to="/corpo-docente/wellington-tohoru-nagano">Wellington Tohotu</Link>
+                            <Link onClick={() => setIsOpen(!isOpen)} to="/corpo-docente/ana-paula-dos-santos-nascimento">Ana Paula dos Santos</Link>
+                            <Link onClick={() => setIsOpen(!isOpen)} to="/corpo-docente/celma-do-carmo-de-souza-pinto">Celma do Carmo Pinto</Link>
+                            <Link onClick={() => setIsOpen(!isOpen)} to="/corpo-docente/maria-jose-spiteri-tavolaro-passos">Maria José Spiteri</Link>
+                            <Link onClick={() => setIsOpen(!isOpen)} to="/corpo-docente/mozart-alberto-bonazzi-da-costa">Mozart Alberto Bonazzi</Link>
+                            <Link onClick={() => setIsOpen(!isOpen)} to="/corpo-docente/ricardo-andalaft">Ricardo Andalaft</Link>
+                            <Link onClick={() => setIsOpen(!isOpen)} to="/corpo-docente/wellington-tohoru-nagano">Wellington Tohotu</Link>
                         </ul>
                     </ul>
                </div>  
